@@ -78,19 +78,27 @@ textarea,input[type="text"]{
     bottom:16px;
     height: 300px;
  }
-
  @media only screen and (max-width: 800px) {
     .days{
         width: 90%
     }
 
-    body{
-        height: auto;
-        margin-bottom: 30px;
-    }
+   .ime{
+    visibility: hidden;
+   }
 
+   .box{
+    padding: 0 5%;
+   }
+
+   .days{
+    padding: 3px 5px;
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+   }
     .navbar-nav  li a:hover {
-        transform: scale(1);
+        transform: scale(3);
         color: #b9f369 !important;
     }
 }
