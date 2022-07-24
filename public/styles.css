@@ -78,3 +78,19 @@ textarea,input[type="text"]{
     bottom:16px;
     height: 300px;
  }
+
+ @media only screen and (max-width: 800px) {
+    .days{
+        width: 90%
+    }
+
+    /* {
+        height: auto;
+        margin-bottom: 30px;
+    } */
+
+    .navbar-nav  li a:hover {
+        transform: scale(1);
+        color: #b9f369 !important;
+    }
+}
