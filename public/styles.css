@@ -84,10 +84,10 @@ textarea,input[type="text"]{
         width: 90%
     }
 
-    /* {
+    body{
         height: auto;
         margin-bottom: 30px;
-    } */
+    }
 
     .navbar-nav  li a:hover {
         transform: scale(1);
