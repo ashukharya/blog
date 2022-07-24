@@ -78,7 +78,7 @@ textarea,input[type="text"]{
     bottom:16px;
     height: 300px;
  }
- @media only screen and (max-width: 800px) {
+ /* @media only screen and (max-width: 800px) {
     .days{
         width: 90%
     }
@@ -101,4 +101,4 @@ textarea,input[type="text"]{
         transform: scale(3);
         color: #b9f369 !important;
     }
-}
+} */
