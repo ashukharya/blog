@@ -78,6 +78,10 @@ textarea,input[type="text"]{
     bottom:16px;
     height: 300px;
  }
+
+ .btn-warning{
+    visibility: hidden;
+ }
  /* @media only screen and (max-width: 800px) {
     .days{
         width: 90%
