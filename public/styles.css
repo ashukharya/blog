@@ -82,27 +82,27 @@ textarea,input[type="text"]{
  .btn-warning{
     visibility: hidden;
  }
- /* @media only screen and (max-width: 800px) {
+ @media only screen and (max-width: 800px) {
+ 
+
+    .ime{
+     visibility: hidden;
+    }
+ 
+    .box{
+     padding: 0 3%;
+    }
+ 
     .days{
-        width: 90%
+     padding:0 3px;
+     margin: 0;
+     font-size: 22px;
+     width: 100%;
+     height: 100%;
+     border-radius: 0;
     }
-
-   .ime{
-    visibility: hidden;
-   }
-
-   .box{
-    padding: 0 5%;
-   }
-
-   .days{
-    padding: 3px 5px;
-    font-size: 20px;
-    width: 100%;
-    height: auto;
-   }
-    .navbar-nav  li a:hover {
-        transform: scale(3);
-        color: #b9f369 !important;
+    p{
+     font-size: 1em;
     }
-} */
+ }
+ 
