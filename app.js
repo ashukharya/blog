@@ -4,8 +4,8 @@ const ejs = require("ejs");
 const _ = require("lodash");
 const date=require(__dirname+"/date.js")
 const mongoose = require('mongoose'); // mongoose lib
-// mongoose.connect('mongodb+srv://admin-ashu:ashu%401311@cluster0.8gy6f7w.mongodb.net/blogDB');
-mongoose.connect('mongodb://localhost:27017/blogDB');
+mongoose.connect('mongodb+srv://admin-ashu:ashu%401311@cluster0.8gy6f7w.mongodb.net/blogDB');
+// mongoose.connect('mongodb://localhost:27017/blogDB');
 const app=express();
 
 const postsSchema={
